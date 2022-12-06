@@ -1,0 +1,2 @@
+# TakasamiWozialBackend
+Proyecto completo (Takasami)
