@@ -47,6 +47,14 @@ class FrontController extends Controller
 			return view('front.aboutus',compact('elementos','carrusel'));
 		// return view('front.aboutus');
 	}
+	
+	public function social(){
+		return view('front.social');		
+	}
+
+	public function proyectos() {
+		return view('front.proyectos');
+	}
 
 	public function contacto(){
 			$elementos = Elemento::where('seccion',6)->get();
@@ -54,6 +62,11 @@ class FrontController extends Controller
 			return view('front.contacto',compact('elementos','data'));
 	}
 
+	public function soluciones() {
+		return view('front.soluciones');
+	}
+
+	/*
 	public function soluciones($id_subcat){
 		$elementos = Elemento::where('seccion',3)->get();
 		$relcat = categoria_detalle::find($id_subcat);
@@ -64,6 +77,7 @@ class FrontController extends Controller
 			// return view('front.aboutus');
 
 	}
+	*/
 
 	public function servicios(){
 		$elementos = Elemento::where('seccion',2)->get();

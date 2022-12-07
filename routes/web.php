@@ -26,10 +26,12 @@ Route::name('front.')->group(function(){
 	Route::post('getServicio', 'FrontController@getServicio')->name('getServicio');
 	Route::get('contacto', 'FrontController@contacto')->name('contacto');
 	Route::get('vacantes', 'FrontController@vacantes')->name('vacantes');
-	Route::get('soluciones/{id}', 'FrontController@soluciones')->name('soluciones');
+	// Route::get('soluciones/{id}', 'FrontController@soluciones')->name('soluciones');
+	Route::get('soluciones', 'FrontController@soluciones')->name('soluciones');
 	Route::get('productos/{product?}', 'FrontController@details')->name('details');
 	Route::post('formularioContac', 'FrontController@mailcontact')->name('formularioContac');
-
+	Route::get('social','FrontController@social')->name('socialp');
+	Route::get('proyectos', 'FrontController@proyectos')->name('proyectos');
 });
 
 // rutas al admin
