@@ -43,22 +43,22 @@
                                 <div class="col-md-6">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="display-6"><a href="nosotros.php" style="text-decoration: none; color: black;">Nosotros</a></p>
+                                            <p class="display-6"><a href="{{ url('nosotros') }}" style="text-decoration: none; color: black;">Nosotros</a></p>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            <p class="display-6"><a href="soluciones.php" style="text-decoration: none; color: black;">Soluciones</a></p>
+                                            <p class="display-6"><a href="{{ url('soluciones') }}" style="text-decoration: none; color: black;">Soluciones</a></p>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            <p class="display-6"><a href="proyectos.php" style="text-decoration: none; color: black;">Proyectos</a></p>
+                                            <p class="display-6"><a href="{{ url('proyectos') }}" style="text-decoration: none; color: black;">Proyectos</a></p>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            <p class="display-6"><a href="contacto.php" style="text-decoration: none; color: black;">Contacto</a></p>
+                                            <p class="display-6"><a href="{{ url('contacto') }}" style="text-decoration: none; color: black;">Contacto</a></p>
                                         </div>
                                     </div>
                                 </div>

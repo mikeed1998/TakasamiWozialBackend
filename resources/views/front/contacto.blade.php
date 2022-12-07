@@ -9,58 +9,81 @@
 @section('styleExtras')
 
 @endsection
+
 @section('content')
 
-<div style="background-color: black; padding-top: 200px">
-<div class="container-fluid pb-5">
-    <div class="row form_resp">
-        <div class="col-md-1"></div>
-        <div class="col-md-5 col-12">
-            <h2 style="font-size: 60px; font-weight: lighter; color: white;">Estamos pendientes de ti...</h2>
-        </div>
-        <div class="col-6"></div>
-        
-        <div class="col-md-1"></div>
-        <div class="col-md-5 col-12 pt-4">
-            <div style="text-align: center; color: rgb(199, 199, 199); padding-left: 10px; padding-right: 10px">{!!$elementos[0]->texto!!}</div>
-        </div>
-        <div class="col-lg-6"></div>
-        
-        <div class="col-md-1"></div>
-        <div class="col-12 col-md-5 pt-3">
-            <form style="border-color: white;" action="{{route('formularioContac')}}" method="post">
-                @csrf
-                <div class="container-fluid">
+<div class="container-fluid px-5">
+    <div class="row mb-5" style="background-color: #F7F0EB;">
+        <div class="col">
+            <div class="row py-5">
+                <div class="col py-5">
+                    <div class="row py-5">
+                        <div class="col-12 py-3 text-center">
+                            <img src="{{ asset('img/design/contact.png') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6 mx-auto" style="text-align: justify;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident libero eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio hic ut earum culpa saepe omnis. Dolorum a quisquam illo alias doloremque magni enim veniam, reprehenderit necessitatibus quia atque ad vel.
+                        </div>
+                    </div>
+                    <form action="" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 mx-auto">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Nombre">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Correo">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Whatsapp">
+                                    </div>
+                                </div>
+                                <div class="row py-3">
+                                    <div class="col">
+                                        <textarea class="form-control border border-dark" name="" id="" cols="30" rows="10" style="background-color: #F7F0EB; height: 100px;  font-size: 24px;"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 mx-auto text-center">
+                                        <input type="submit" class="form-control border border-dark py-2" value="ENVIAR" style="font-size: 30px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-3 px-5">
                     <div class="row">
-                        <div class="col-12 col-md-4 px-1 py-2">
-                            <input type="text" class="bd-highlight form-control" placeholder="Nombre:" name="nombre" style="background: none; height: 50px; color: white;" value="">
+                        <div class="col py-3">
+                            <img src="{{ asset('img/design/nosotros.png') }}" class="img-fluid" alt="">
                         </div>
-                        <div class="col-12 col-md-4 px-1 py-2">           
-                            <input type="text" class="bd-highlight form-control" placeholder="Whatsapp:" name="telefono" style="background: none; height: 50px; color: white" value="">
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            Avenida lapizlazuli 2074 int 3 <br>
+                            Residencial Victoria, Zapopan jalisco. <br>
+                            Tel. 3338096501 <br><br>
+                            <a href="#" class="text-dark" style="text-decoration: none;">
+                                <i class="fa-brands fa-whatsapp fa-lg px-2"></i>
+                            </a>
+                            <a href="#" class="text-dark" style="text-decoration: none;">
+                                <i class="fa-brands fa-facebook-f fa-lg px-2"></i>
+                            </a>
+                            <a href="#" class="text-dark" style="text-decoration: none;">
+                                <i class="fa-brands fa-instagram fa-lg px-2"></i>
+                            </a>
+                            <a href="#" class="text-dark" style="text-decoration: none;">
+                                <i class="fa-solid fa-location-dot fa-lg px-2"></i>
+                            </a>
                         </div>
-                        <div class="col-12 col-md-4 px-1 py-2">
-                            <input type="text" class="bd-highlight form-control" placeholder="Correo:" name="correo" style="background: none; height: 50px; color: white" value="">
-                        </div>
-                        <div class="col-12 px-1 pt-1 pb-3">
-                            <input type="text" class="form-control" name="mensaje" style="background: none; height: 50px; color: white" value="">
-                        </div>
-                    <br>
-                    <div style="text-align: center; padding-top: 5px;">
-                    <button type="submit" class="btn btn-primary align-items-end btn_gde pt-2">enviar</button>
                     </div>
                 </div>
-                </div>
-            </form>
-        </div>
-        <div class="col-12 col-md-6 px-5" style="text-align: right; color: white; display: flex; align-items: end; justify-content: end;">
-            <p>{{$data->direccion}} <br>{{$data->destinatario}} <br>{{$data->telefono}}</p>
+            </div>
         </div>
     </div>
-</div>
-
-<div class="container-fluid" >
-    {!!$data->mapa!!}
-</div>
 </div>
 
 @endsection

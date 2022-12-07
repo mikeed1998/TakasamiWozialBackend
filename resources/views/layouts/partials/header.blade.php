@@ -22,31 +22,31 @@
                     <div class="col-12 mb-3 cola enc position-relative">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="home.php"><img src="{{ asset('img/design/TKSHome_03_01.png') }}" class="img-fluid" alt=""></a>
+                        <a href="{{ url('/') }}"><img src="{{ asset('img/design/TKSHome_03_01.png') }}" class="img-fluid" alt=""></a>
                         <div class="col-md-2 col-lg-2 py-3 col-sm-2 col-xs-12 px-0 bg-white text-center position-absolute start-100 top-0 translate-middle-x border border-dark">
                             <div class="row">
                                 <div class="col">   
-                                    <h5><a href="nosotros.php" class="menu">NOSOTROS</a></h5>
+                                    <h5><a href="{{ url('nosotros') }}" class="menu">NOSOTROS</a></h5>
                                 </div>
                             </div>  
                             <div class="row">
                                 <div class="col">
-                                    <h5><a href="soluciones.php" class="menu">SOLUCIONES</a></h5>
+                                    <h5><a href="{{ url('soluciones') }}" class="menu">SOLUCIONES</a></h5>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <h5><a href="proyectos.php" class="menu">PROYECTOS</a></h5>
+                                    <h5><a href="{{ url('proyectos') }}" class="menu">PROYECTOS</a></h5>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <h5><a href="social.php" class="menu">SOCIAL</a></h5>
+                                    <h5><a href="{{ url('social') }}" class="menu">SOCIAL</a></h5>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <h5><a href="contacto.php" class="menu">CONTACTO</a></h5>
+                                    <h5><a href="{{ url('contacto') }}" class="menu">CONTACTO</a></h5>
                                 </div>
                             </div>
                         </div>
