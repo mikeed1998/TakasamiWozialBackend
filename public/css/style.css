@@ -88,6 +88,16 @@
     font-size: 24px;
 }
 
+.formu2::placeholder {
+    color: black;
+    font-size: 24px;
+}
+
+.formu2.odd:focus {
+    color: black;
+    font-size: 24px;
+}
+
 .home-br-responsive {
     display: none;
 }
@@ -140,6 +150,12 @@
 } 
 
 @media (max-width: 500px) {
+    .slider-responsive {
+        position: sticky; 
+        top: 0; 
+        z-index: 999;
+    }
+
     .aux {
         display: none;
     }

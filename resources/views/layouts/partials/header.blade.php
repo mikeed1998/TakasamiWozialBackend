@@ -1,5 +1,5 @@
 <div class="container-fluid slider px-5">
-  <div class="row ">
+  <div class="row">
     <div class="col padd">
         <div class="row position-relative">
             <div class="col-md-11 py-2 bg-white position-relative">
