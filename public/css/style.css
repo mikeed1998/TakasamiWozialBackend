@@ -156,6 +156,14 @@
         z-index: 999;
     }
 
+    .aux1 {
+        display: none;
+    }
+
+    .aux2 {
+        display: block;
+    }
+
     .aux {
         display: none;
     }
