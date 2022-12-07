@@ -117,13 +117,13 @@
                     <div class="col-md-6 mx-auto">
                         <div class="row">
                             <div class="col-md-4">
-                                <input type="text" class="form-control border border-dark py-2" style="color:black; background-color: #F7F0EB; font-size: 24px;" placeholder="Nombre">
+                                <input type="text" class="form-control formu2 border border-dark py-2" style="color:black; background-color: #F7F0EB; font-size: 24px;" placeholder="Nombre">
                             </div>
                             <div class="col-md-4">
-                                <input type="text" class="form-control border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Correo">
+                                <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Correo">
                             </div>
                             <div class="col-md-4">
-                                <input type="text" class="form-control border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Whatsapp">
+                                <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Whatsapp">
                             </div>
                         </div>
                         <div class="row py-3">
