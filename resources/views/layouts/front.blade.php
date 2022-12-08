@@ -8,8 +8,13 @@
 		<meta name="description" content="{{$config->description}}" />
 
 		{{-- <title>{{ config('app.name') }}</title> --}}
-		<title>{{$config->title }}</title>
-		<link rel="icon" type="image/jpg" href="{{asset("/img/design/064.png")}}"/>
+		{{-- <title>{{$config->title }}</title> --}}
+
+		<title>
+			Takasami - @yield('title')
+		</title>
+
+		<link rel="icon" type="image/jpg" href="{{asset("/img/design/takasami.ico")}}"/>
 
 
     	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
@@ -25,7 +30,7 @@
 		@yield('jsLibExtras')
 
 		@yield('cssExtras')
-			@yield('styleExtras')
+		@yield('styleExtras')
 	</head>
 	<body>
 

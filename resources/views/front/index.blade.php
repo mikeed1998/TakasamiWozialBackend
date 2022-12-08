@@ -1,6 +1,10 @@
 @extends('layouts.front')
 
-@section('title', 'Inicio')
+{{-- @section('title', 'Inicio') --}}
+@section('title')
+    {{ 'Home' }}
+@endsection
+
 @section('cssExtras')
 	<link rel="stylesheet" href="{{asset('css/index.css')}}">
 	<link rel="stylesheet" href="{{ asset('vendor/owlCarousel/assets/owl.carousel.css') }}">
@@ -71,7 +75,7 @@
                           </div>
                           <div class="row py-3">
                               <div class="col-md-3 mx-auto text-center">
-                                  <a href="{{ url('proyectos') }}" class="btn btn-outline bg-white border border-dark btn-lg px-4 py-2">SABER MÁS</a>
+                                  <a href="{{ url('proyectos') }}" class="btn btn-outline border border-dark btn-lg px-4 py-2">SABER MÁS</a>
                               </div>
                           </div>
                           <div class="row py-3">
@@ -209,34 +213,6 @@
                               <div>
                                   <div class="col px-0">
                                       <div class="card">
-                                          <div class="col-md-6 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-size: cover; background-image: url({{ asset('img/design/TKSHome_49.png') }});">
-                                              <div class="d-flex align-items-center justify-content-center" style="background: #F7F0EB; width: 120px; height: 120px; background-size: cover;">
-                                                  <img class="img-fluid" src="{{ asset('img/design/TKSHome_59.png') }}" alt="">
-                                              </div>
-                                          </div>
-                                          <div class="card-body">
-                                              <div class="row">
-                                                  <div class="col text-center">
-                                                      <h3>EQUIPO</h3>
-                                                  </div>
-                                              </div>
-                                              <div class="row">
-                                                  <div class="col-md-6 mx-auto text-center">
-                                                      <hr style="border: 3px solid black;">
-                                                  </div>
-                                              </div>
-                                              <div class="row">
-                                                  <div class="col text-center">
-                                                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos porro earum optio vero molestias rem, soluta harum deserunt molestiae magni!
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div class="col px-0">
-                                      <div class="card">
                                           <div class="col-md-6 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-size: cover; background-image: url({{ asset('img/design/TKSHome_51.png') }});">
                                               <div class="d-flex align-items-center justify-content-center" style="background: #F7F0EB; width: 120px; height: 120px; background-size: cover;">
                                                   <img class="img-fluid" src="{{ asset('img/design/TKSHome_56.png') }}" alt="">
@@ -262,6 +238,34 @@
                                       </div>
                                   </div>
                               </div>
+                              <div>
+                                <div class="col px-0">
+                                    <div class="card">
+                                        <div class="col-md-6 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-size: cover; background-image: url({{ asset('img/design/TKSHome_49.png') }});">
+                                            <div class="d-flex align-items-center justify-content-center" style="background: #F7F0EB; width: 120px; height: 120px; background-size: cover;">
+                                                <img class="img-fluid" src="{{ asset('img/design/TKSHome_59.png') }}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <h3>EQUIPO</h3>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mx-auto text-center">
+                                                    <hr style="border: 3px solid black;">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos porro earum optio vero molestias rem, soluta harum deserunt molestiae magni!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                       </div>
                   </div>
@@ -318,7 +322,7 @@
                                   </div>
                                   <div class="row">
                                       <div class="col-md-3 mx-auto text-center">
-                                          <input type="submit" class="form-control border border-dark py-2" value="ENVIAR" style="font-size: 30px;">
+                                          <input type="submit" class="form-control btn border border-dark py-2" value="ENVIAR" style="font-size: 30px;">
                                       </div>
                                   </div>
                               </div>

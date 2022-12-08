@@ -1,5 +1,9 @@
 @extends('layouts.front')
 
+@section('title')
+    {{ 'Social' }}
+@endsection
+
 @section('cssExtras')
 @endsection
 

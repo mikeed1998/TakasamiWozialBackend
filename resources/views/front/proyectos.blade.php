@@ -1,5 +1,9 @@
 @extends('layouts.front')
 
+@section('title')
+    {{ 'Proyectos' }}
+@endsection
+
 @section('cssExtras')
 @endsection
 @section('styleExtras')

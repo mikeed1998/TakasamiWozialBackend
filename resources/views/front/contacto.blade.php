@@ -1,6 +1,9 @@
 @extends('layouts.front')
 
-@section('title', 'Inicio')
+@section('title')
+    {{ 'Contacto' }}
+@endsection
+
 @section('cssExtras')
 	<link rel="stylesheet" href="{{asset('css/index.css')}}">
 	<link rel="stylesheet" href="{{ asset('vendor/owlCarousel/assets/owl.carousel.css') }}">
