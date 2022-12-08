@@ -49,7 +49,10 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-3 mx-auto text-center">
-                                        <input type="submit" class="form-control border border-dark py-2" value="ENVIAR" style="font-size: 30px;">
+                                        <!-- <input type="submit" class="form-control btn border border-dark py-2" value="ENVIAR" style="font-size: 30px;"> -->
+                                        <button type="submit" class="form-control btn border border-dark py-2" style="font-size: 20px;">
+                                            ENVIAR <i class="carga fa fa-spinner fa-spin"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

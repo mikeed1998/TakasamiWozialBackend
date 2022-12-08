@@ -106,8 +106,16 @@
     display: none;
 }
 
+.btn > .carga, .btn > b > .carga {
+    display: none;
+}
+
 .btn:hover {
     background-color: #F7F0EB;
+}
+
+.btn:focus > .carga, .btn:focus > b > .carga {
+    display: block;
 }
 
 @media (min-width: 501px) {

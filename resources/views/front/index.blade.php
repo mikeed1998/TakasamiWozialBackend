@@ -23,7 +23,7 @@
                 <div class="row position-relative">
                     <div class="col position-absolute px-2">
                         <div class="home-br-responsive">
-                            <br><br><br><br><br><br><br><br>
+                            <br><br><br><br><br><br><br>
                         </div>
                         <div id="carrusel" class="">
                             <div style="position: relative; background-image: url('{{ asset("img/design/TKSHome_07.png") }}'); background-size: 100% auto; background-repeat: no-repeat;">
@@ -32,7 +32,7 @@
                                         <div class="auxiliar"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                                             <div class="auxiliar-responsive"><br><br><br></div>
                                                 <p>
-                                                    <a href="#" class="btn btn-outline bg-white btn-lg px-4 py-2 shadow-lg rounded py-3 px-5"><b>SABER MÁS</b></a>
+                                                    <a href="#" class="btn btn-outline bg-white btn-lg px-4 py-2 shadow-lg rounded py-3 px-5"><b>SABER MÁS<i class="carga fa fa-spinner fa-spin"></i></b></a>
                                                     <br><br><br><br><br><br>
                                                 </p>
                                             </div>
@@ -44,7 +44,7 @@
                                                 <div class="auxiliar"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                                                 <div class="auxiliar-responsive"><br><br><br></div>
                                                     <p>
-                                                        <a href="#" class="btn btn-outline bg-white btn-lg px-4 py-2 shadow-lg rounded py-3 px-5"><b>SABER MÁS</b></a>
+                                                        <a href="#" class="btn btn-outline bg-white btn-lg px-4 py-2 shadow-lg rounded py-3 px-5"><b>SABER MÁS<i class="carga fa fa-spinner fa-spin"></i></b></a>
                                                         <br><br><br><br><br><br>
                                                     </p>
                                                 </div>
@@ -75,7 +75,7 @@
                           </div>
                           <div class="row py-3">
                               <div class="col-md-3 mx-auto text-center">
-                                  <a href="{{ url('proyectos') }}" class="btn btn-outline border border-dark btn-lg px-4 py-2">SABER MÁS</a>
+                                  <a href="{{ url('proyectos') }}" class="btn btn-outline border border-dark btn-lg py-2 px-4" style="font-size: 20px;">SABER MÁS <i class="carga fa fa-spinner fa-spin"></i></a>
                               </div>
                           </div>
                           <div class="row py-3">
@@ -289,7 +289,7 @@
                       </div>
                       <div class="row">
                           <div class="col-md-3 mx-auto text-center">
-                              <a href="{{ url('social') }}" class="btn btn-outline btn-lg py-2 px-4 border border-dark" style="font-size: 30px;">SABER MÁS</a>
+                              <a href="{{ url('social') }}" class="btn btn-outline btn-lg py-2 px-4 border border-dark" style="font-size: 20px;">SABER MÁS <i class="carga fa fa-spinner fa-spin"></i></a>
                           </div>
                       </div>
                   </div>
@@ -322,8 +322,11 @@
                                   </div>
                                   <div class="row">
                                       <div class="col-md-3 mx-auto text-center">
-                                          <input type="submit" class="form-control btn border border-dark py-2" value="ENVIAR" style="font-size: 30px;">
-                                      </div>
+                                            <!-- <input type="submit" class="form-control btn border border-dark py-2" value="ENVIAR" style="font-size: 30px;"> -->
+                                            <button type="submit" class="form-control btn border border-dark py-2" style="font-size: 20px;">
+                                                SABER MAS <i class="carga fa fa-spinner fa-spin"></i>
+                                            </button>
+                                        </div>
                                   </div>
                               </div>
                           </div>
