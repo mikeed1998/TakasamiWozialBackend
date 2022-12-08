@@ -22,7 +22,7 @@
                                                 <img src="{{ asset('img/design/PROYECTOS_06.png') }}" alt="">
                                             </div>
                                         </div>
-                                        <div class="row py-0">
+                                        <div class="row py-3">
                                             <div class="col">
                                                 <h5>Marriot</h5>
                                                 <h5>Vidanta</h5>

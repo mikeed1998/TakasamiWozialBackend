@@ -16,10 +16,10 @@
                     <div class="row py-2">
                         <div class="col-md-9 mx-auto">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 py-1">
                                     <input type="text" class="form-control formu bg-black py-1" style="background-color: black; color: white; font-size: 24px;" placeholder="NOMBRE">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 py-1">
                                     <input type="text" class="form-control formu bg-black py-1" style="background-color: black; color: white; font-size: 24px;" placeholder="CORREO">
                                 </div>
                             </div>

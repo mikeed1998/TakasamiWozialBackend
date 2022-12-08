@@ -71,7 +71,7 @@
                           </div>
                           <div class="row py-3">
                               <div class="col-md-3 mx-auto text-center">
-                                  <a href="#" class="btn btn-outline bg-white border border-dark btn-lg px-4 py-2">SABER MÁS</a>
+                                  <a href="{{ url('proyectos') }}" class="btn btn-outline bg-white border border-dark btn-lg px-4 py-2">SABER MÁS</a>
                               </div>
                           </div>
                           <div class="row py-3">
@@ -285,7 +285,7 @@
                       </div>
                       <div class="row">
                           <div class="col-md-3 mx-auto text-center">
-                              <a href="" class="btn btn-outline btn-lg py-2 px-4 border border-dark" style="font-size: 30px;">SABER MÁS</a>
+                              <a href="{{ url('social') }}" class="btn btn-outline btn-lg py-2 px-4 border border-dark" style="font-size: 30px;">SABER MÁS</a>
                           </div>
                       </div>
                   </div>
