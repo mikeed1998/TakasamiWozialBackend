@@ -56,6 +56,10 @@ class FrontController extends Controller
 		return view('front.proyectos');
 	}
 
+	public function tests() {
+		return view('front.tests');
+	}
+
 	public function contacto(){
 			$elementos = Elemento::where('seccion',6)->get();
 			$data = Configuracion::first();

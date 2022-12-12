@@ -21,29 +21,42 @@
             <div class="col-12 px-1">
                 <div class="row position-relative">
                     <div class="col position-absolute px-2">
-                        <div class="aux3"><br><br></div>
+                        <div class="home-br-responsive">
+                            <br><br><br>
+                        </div>
                         <div id="carrusel" class="">
-                            <div>
-                                <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="background-size: cover; width: auto; height: 850px; background-image: url({{ asset('img/design/TKSHome_07.png') }});">
-                                    <div class="d-flex mb-5 align-items-center justify-content-center">
-                                        <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div>
-                                <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: 850px; background-image: url({{ asset('img/design/TKSHome_07.png') }}); background-size: cover;">
-                                    <div class="d-flex mb-5 align-items-center justify-content-center">
-                                        <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
+                            <div style="position: relative; background-image: url('{{ asset("img/design/TKSHome_07.png") }}'); background-size: 100% auto; background-repeat: no-repeat;">
+                                <div class="row">
+                                    <div class="col-md-3 mx-auto text-center">
+                                        <div class="auxiliar"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                            <div class="auxiliar-responsive"><br><br><br></div>
+                                                <p>
+                                                    <a href="#" class="btn btn-outline bg-white btn-lg px-4 py-2 shadow-lg rounded py-3 px-5"><b>SABER MÁS<i class="carga fa fa-spinner fa-spin"></i></b></a>
+                                                    <br><br><br><br><br><br>
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <div style="position: relative; background-image: url('{{ asset("img/design/TKSHome_07.png") }}'); background-size: 100% auto; background-repeat: no-repeat;">
+                                        <div class="row">
+                                            <div class="col-md-3 mx-auto text-center">
+                                                <div class="auxiliar"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                                <div class="auxiliar-responsive"><br><br><br></div>
+                                                    <p>
+                                                        <a href="#" class="btn btn-outline bg-white btn-lg px-4 py-2 shadow-lg rounded py-3 px-5"><b>SABER MÁS<i class="carga fa fa-spinner fa-spin"></i></b></a>
+                                                        <br><br><br><br><br><br>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="aux3"><br><br><br><br><br><br><br><br><br><br></div>
-                    <div id="aux2"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                    
-                    </div>
-                    <div class="row mb-5 mt-5 px-0 py-5 position-relative">
+                    <div id="aux2"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                    <div class="row mb-5 mt-5 py-5 position-relative">
                         <div class="col-md-6 py-5 mt-5">
                             <div class="aux">
                                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -145,7 +158,7 @@
                                             <div class="card">
                                                 <div class="image col-md-6 col-xs-12 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-image: url({{ asset('img/design/TKSHome_47.png') }}); background-size: cover;">
                                                     <div class="d-flex align-items-center justify-content-center" style="background: #F7F0EB; width: 120px; height: 120px; background-size: cover;">
-                                                        <img class="img-fluid" src="{{ asset('img/design/TKSHome_62.png') }}" alt="" style="background-size: cover;">
+                                                        <img class="img-fluid" src="{{ asset('img/design/TKSHome_62.png') }}" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="card-body">
@@ -287,7 +300,7 @@
                                     <img src="{{ asset('img/design/TKSHome_76.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
-                            <form action="{{ url('/') }}" method="POST">
+                            <form action="" method="POST">
                                 <div class="row">
                                     <div class="col-md-6 mx-auto">
                                         <div class="row">

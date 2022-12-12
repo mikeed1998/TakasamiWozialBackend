@@ -16,10 +16,10 @@
                     <div class="row py-2">
                         <div class="col-md-9 mx-auto">
                             <div class="row">
-                                <div class="col-md-6 py-1">
+                                <div class="col-md-12 col-sm-12 col-lg-6 py-1">
                                     <input type="text" class="form-control formu bg-black py-1" style="background-color: black; color: white; font-size: 24px;" placeholder="NOMBRE">
                                 </div>
-                                <div class="col-md-6 py-1">
+                                <div class="col-md-12 col-sm-12 col-lg-6 py-1">
                                     <input type="text" class="form-control formu bg-black py-1" style="background-color: black; color: white; font-size: 24px;" placeholder="CORREO">
                                 </div>
                             </div>
@@ -29,7 +29,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6 mx-auto text-center">
+                                <div class="col-md-12 col-sm-12 col-lg-6 mx-auto text-center">
                                     <input type="submit" class="form-control border border-dark py-1" value="ENVIAR" style="font-size: 24px;">
                                 </div>
                             </div>

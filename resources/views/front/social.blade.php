@@ -48,11 +48,11 @@
                         <div id="carruselSocial">
                             <div>
                                 <div class="card px-3 mt-5 bg-transparent border-0">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-md-12">
                                         <img src="{{ asset('img/design/RSOCIAL_07.png') }}" class="img-fluid w-100" alt="" style="width: 100%; height: 30vw; object-fit: cover;">
                                         <div class="card-body">
                                             <div class="row">
-                                                <div class="col-md-6 text-center mx-auto">
+                                                <div class="col-md-12 col-sm-12 col-xs-12 text-center mx-auto">
                                                     <p class="display-6">ARTESANOS</p>
                                                 </div>
                                             </div>
@@ -72,11 +72,11 @@
                             </div>
                             <div>
                                 <div class="card px-3 mt-5 bg-transparent border-0">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-md-12">
                                         <img src="{{ asset('img/design/RSOCIAL_09.png') }}" class="img-fluid w-100" alt="" style="width: 100%; height: 30vw; object-fit: cover;">
                                         <div class="card-body">
                                             <div class="row">
-                                                <div class="col-md-6 text-center mx-auto">
+                                                <div class="col-md-12 col-sm-12 text-center mx-auto">
                                                     <p class="display-6">CARCELES</p>
                                                 </div>
                                             </div>
@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 py-5 mx-auto text-center">
+                <div class="col-md-3 col-sm-12 py-2 mt-2 mb-5 mx-auto text-center">
                     <button id="btn-slick-social" class="btn btn-outline">
                         <i class="fa-solid fa-circle px-1"></i><i class="fa-solid fa-circle px-1"></i><i class="fa-solid fa-circle px-1"></i>
                     </button>

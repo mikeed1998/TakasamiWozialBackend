@@ -32,6 +32,7 @@ Route::name('front.')->group(function(){
 	Route::post('formularioContac', 'FrontController@mailcontact')->name('formularioContac');
 	Route::get('social','FrontController@social')->name('socialp');
 	Route::get('proyectos', 'FrontController@proyectos')->name('proyectos');
+	Route::get('tests', 'FrontController@tests')->name('tests');
 });
 
 // rutas al admin

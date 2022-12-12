@@ -21,24 +21,24 @@
                 <div class="row py-5">
                     <div class="col py-5">
                         <div class="row py-5">
-                            <div class="col-12 py-3 text-center">
+                            <div class="col-md-12 col-lg-12 py-3 text-center">
                                 <img src="{{ asset('img/design/contact.png') }}" class="img-fluid" alt="">
                             </div>
-                            <div class="col-md-6 mx-auto" style="text-align: justify;">
+                            <div class="col-md-12 col-lg-9 mx-auto text-center" style="text-align: justify;">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident libero eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio hic ut earum culpa saepe omnis. Dolorum a quisquam illo alias doloremque magni enim veniam, reprehenderit necessitatibus quia atque ad vel.
                             </div>
                         </div>
                         <form action="" method="POST">
                             <div class="row">
-                                <div class="col-md-6 mx-auto">
+                                <div class="col-md-12 col-lg-9 mx-auto">
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 py-1">
                                             <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Nombre">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 py-1">
                                             <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Correo">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 py-1">
                                             <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Whatsapp">
                                         </div>
                                     </div>
@@ -48,7 +48,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-3 mx-auto text-center">
+                                        <div class="col-md-3 col-lg-3 col-sm-12 mx-auto text-center">
                                             <!-- <input type="submit" class="form-control btn border border-dark py-2" value="ENVIAR" style="font-size: 30px;"> -->
                                             <button type="submit" class="form-control btn border border-dark py-2" style="font-size: 20px;">
                                                 ENVIAR <i class="carga fa fa-spinner fa-spin"></i>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col-md-3 px-5">
+                    <div class="col-md-6 col-lg-4 col-sm-12 px-5">
                         <div class="row">
                             <div class="col py-3">
                                 <img src="{{ asset('img/design/nosotros.png') }}" class="img-fluid" alt="">

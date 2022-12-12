@@ -59,9 +59,9 @@
         </div>
         <div class="col-md-8" style="background-color: #F7F0EB;">
             <div class="row">
-                <div class="col-md-9 text-center mx-auto">
+                <div class="col-md-9 col-lg-12 text-center">
                     <div class="row">
-                        <div class="col-md-6 py-5 text-center mx-auto">
+                        <div class="col-md-12 col-lg-6 py-5 text-center mx-auto">
                             <div class="card border-0" style="background-color: #F7F0EB;">
                                 <div class="text-center">
                                     <img src="{{ asset('img/design/PROYECTOS_03.png') }}" class="img-fluid rounded-circle w-50" alt="">
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 py-5 text-center mx-auto">
+                        <div class="col-md-12 col-lg-6 py-5 text-center mx-auto">
                             <div class="card border-0" style="background-color: #F7F0EB;">
                                 <div class="text-center">
                                     <img src="{{ asset('img/design/PROYECTOS_03.png') }}" class="img-fluid rounded-circle w-50" alt="">
