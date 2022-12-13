@@ -17,19 +17,19 @@
     <div class="row position-relative" style="background-color: #F7F0EB;">
         <div class="col py-5">
             <div class="row mt-5">
-                <div class="col mt-5 text-center">
+                <div class="col-sm-12 col-md-9 mt-5 mx-auto text-center">
                     <img src="{{ asset('img/design/TKSHome_68.png') }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col text-center mx-auto">
+                <div class="col-sm-12 col-md-9 text-center mx-auto">
                     <img src="{{ asset('img/design/RSOCIAL_03.png') }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <div class="row">
-                        <div class="col-md-7 text-center mx-auto" style="text-align: justify;">
+                        <div class="col-md-9 text-center mx-auto" style="text-align: justify;">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione esse quam totam corrupti nobis voluptatem perspiciatis consectetur. Nemo, minima quas dignissimos, doloribus quibusdam in ad tempora consequuntur maxime necessitatibus voluptatum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque velit dignissimos rem deserunt sit accusantium deleniti ratione aperiam! Cupiditate vitae nesciunt nihil possimus laboriosam, placeat alias deleniti amet repellat sit officiis provident! A quidem ratione atque, porro asperiores ipsum repellat qui, quia omnis quas eligendi, illum aspernatur exercitationem at recusandae?</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum rerum dolores maiores soluta, odio sunt in magnam cupiditate. Quos earum sint dolore repellendus repudiandae quaerat impedit architecto at sed delectus dolorum, voluptas illo id tempore consectetur nemo labore officiis minus.</p>
                         </div>

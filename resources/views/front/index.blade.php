@@ -24,14 +24,16 @@
                         <div class="aux3"><br><br></div>
                         <div id="carrusel" class="">
                             <div>
-                                <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="background-size: cover; width: auto; height: 850px; background-image: url({{ asset('img/design/TKSHome_07.png') }});">
+                                <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: auto; background-image: url({{ asset('img/design/TKSHome_07.png') }}); background-size: cover;">
+                                    <div class="auxm"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                                     <div class="d-flex mb-5 align-items-center justify-content-center">
                                         <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
                                     </div>  
                                 </div>
                             </div>
                             <div>
-                                <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: 850px; background-image: url({{ asset('img/design/TKSHome_07.png') }}); background-size: cover;">
+                                <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: auto; background-image: url({{ asset('img/design/TKSHome_07.png') }}); background-size: cover;">
+                                    <div class="auxm"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                                     <div class="d-flex mb-5 align-items-center justify-content-center">
                                         <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
                                     </div>
@@ -44,12 +46,12 @@
                     
                     </div>
                     <div class="row mb-5 mt-5 px-0 py-5 position-relative">
-                        <div class="col-md-6 py-5 mt-5">
+                        <div class="col-sm-12 col-md-6 col-lg-6 py-5 mt-5">
                             <div class="aux">
                                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                             </div>
                             <div class="row mt-5 py-5">
-                                <div class="col-md-9 mt-5 mb-1 text-center mx-auto">
+                                <div class="col-sm-12 col-md-9 col-lg-9 mt-5 mb-1 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_14.png') }}" class="img-fluid w-100" alt="">
                                 </div>
                             </div>
@@ -60,12 +62,12 @@
                                 </div>
                             </div>
                             <div class="row py-3">
-                                <div class="col-md-3 mx-auto text-center">
+                                <div class="col-sm-12 col-md-9 col-lg-4 mx-auto text-center">
                                     <a href="{{ url('proyectos') }}" class="btn btn-outline border border-dark btn-lg py-2 px-4" style="font-size: 20px;">SABER MÁS <i class="carga fa fa-spinner fa-spin"></i></a>
                                 </div>
                             </div>
                             <div class="row py-3">
-                                <div class="col-md-9 text-end mx-auto">
+                                <div class="col-sm-12 col-md-12 col-lg-12 text-end mx-auto">
                                     <div class="row">
                                         <div class="col">
                                             <img src="{{ asset('img/design/TKSHome_03_01.png') }}" alt="img-fluid" width="20%">
@@ -74,7 +76,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6" style="background-color: #F7F0EB">
+                        <div class="col-sm-12 col-md-6 col-lg-6" style="background-color: #F7F0EB">
                             <div class="row">
                                 <div class="col text-center">
                                     <img src="{{ asset('img/design/TKSHome_11.png') }}" class="img-fluid" alt="">
@@ -85,52 +87,52 @@
                     <div class="row mt-5">
                         <div class="col mt-5">
                             <div class="row">
-                                <div class="col-md-4 mt-5 mx-auto text-center">
+                                <div class="col-sm-12 col-md-6 col-lg-4 mt-5 mx-auto text-center">
                                     <img src="{{ asset('img/design/TKSHome_19.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-2 mx-auto text-center px-0">
+                                <div class="col-sm-12 col-md-2 col-lg-2 mx-auto text-center px-0">
                                     <hr style="border: 3px solid black;">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6 mx-auto text-center">
+                                <div class="col-md-9 col-lg-6 mx-auto text-center">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aliquid accusamus mollitia dolorum aperiam eveniet, a ratione magni asperiores est blanditiis quasi excepturi sed neque aspernatur, dolores molestias quaerat dolore rerum? Ipsam ipsum quisquam itaque natus pariatur fugiat suscipit hic.
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-5">
-                        <div class="col-md-9 mx-auto">
+                    <div class="row mt-5 px-5">
+                        <div class="col-sm-12 col-md-9 col-lg-12 mx-auto">
                             <div class="row">
-                                <div class="col-md-2 py-2 text-center mx-auto">
+                                <div class="col-sm-12 col-md-4 col-lg-2 py-3 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_26.png') }}" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-md-2 py-2 text-center mx-auto">
+                                <div class="col-sm-12 col-md-4 col-lg-2 py-3 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_29.png') }}" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-md-2 py-2 text-center mx-auto">
+                                <div class="col-sm-12 col-md-4 col-lg-2 py-3 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_35.png') }}" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-md-2 py-2 text-center mx-auto">
+                                <div class="col-sm-12 col-md-4 col-lg-2 py-3 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_23.png') }}" class="img-fluid" alt="">
                                 </div>
-                                <div class="col-md-2 py-2 text-center mx-auto">
+                                <div class="col-sm-12 col-md-4 col-lg-2 py-3 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_32.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row mt-5 py-5" style="background-color: #F7F0EB">
-                        <div class="col-md-6 mx-auto text-center mt-5">
+                        <div class="col-sm-12 col-md-12 col-lg-12 text-center mt-5">
                             <div class="row">
-                                <div class="col mt-5 mx-auto py-3">
+                                <div class="col-sm-12 col-md-9 col-lg-4 mt-5 mx-auto py-3">
                                     <img src="{{ asset('img/design/TKSHome_43.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col">
+                                <div class="col-sm-12 col-md-9 col-lg-6 mx-auto text-center">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum at quod non? Tempora, molestias pariatur? Culpa, temporibus! Corrupti inventore, aliquid reprehenderit, molestiae doloribus delectus dolore aspernatur sit aliquam magni nostrum.
                                 </div>
                             </div>
@@ -257,24 +259,24 @@
                         </div>
                     </div>
                     <div class="row mt-5 py-5">
-                        <div class="col py-5" style="background-color: #F7F0EB">
+                        <div class="col-sm-12 col-md-12 py-5" style="background-color: #F7F0EB">
                             <div class="row py-5">
-                                <div class="col text-center">
+                                <div class="col-sm-12 col-md-9 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_68.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col text-center">
+                                <div class="col-sm-12 col-md-9 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_72.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
                             <div class="row py-5">
-                                <div class="col-md-6 mx-auto text-center">
+                                <div class="col-sm-12 col-md-9 mx-auto text-center">
                                     Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, doloribus. Veniam alias voluptate dolore est cum recusandae dignissimos porro sunt ipsum dolorum, doloribus vero, reprehenderit aspernatur, hic unde repudiandae minus!
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-3 mx-auto text-center">
+                                <div class="col-sm-12 col-md-4 mx-auto text-center">
                                     <a href="{{ url('social') }}" class="btn btn-outline btn-lg py-2 px-4 border border-dark" style="font-size: 20px;">SABER MÁS <i class="carga fa fa-spinner fa-spin"></i></a>
                                 </div>
                             </div>
@@ -283,31 +285,31 @@
                     <div class="row py-5">
                         <div class="col py-5">
                             <div class="row py-5">
-                                <div class="col text-center">
+                                <div class="col-md-9 col-lg-12 text-center mx-auto">
                                     <img src="{{ asset('img/design/TKSHome_76.png') }}" class="img-fluid" alt="">
                                 </div>
                             </div>
                             <form action="{{ url('/') }}" method="POST">
                                 <div class="row">
-                                    <div class="col-md-6 mx-auto">
+                                    <div class="col-md-9 mx-auto">
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-sm-12 col-md-4 py-1">
                                                 <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Nombre">
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-sm-12 col-md-4 py-1">
                                                 <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Correo">
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-sm-12 col-md-4 py-1">
                                                 <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Whatsapp">
                                             </div>
                                         </div>
-                                        <div class="row py-3">
+                                        <div class="row py-1">
                                             <div class="col">
                                                 <textarea class="form-control border border-dark" name="" id="" cols="30" rows="10" style="height: 100px;  font-size: 24px;"></textarea>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-3 mx-auto text-center">
+                                        <div class="row py-2">
+                                            <div class="col-md-4 col-lg-3 mx-auto text-center">
                                                 <!-- <input type="submit" class="form-control btn border border-dark py-2" value="ENVIAR" style="font-size: 30px;"> -->
                                                 <button type="submit" class="form-control btn border border-dark py-2" style="font-size: 20px;">
                                                     SABER MAS <i class="carga fa fa-spinner fa-spin"></i>

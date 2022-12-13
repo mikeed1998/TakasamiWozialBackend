@@ -20,10 +20,10 @@
                             <div class="col">
                                 <div class="auxiliar-responsive"><br><br><br><br></div>
                                     <div class="row py-5" style="background-color: #F7F0EB;">
-                                        <div class="col-md-4 py-5 px-5">
+                                        <div class="col-md-4 col-lg-12 py-5 px-5">
                                             <div class="row mt-5">
-                                                <div class="col">
-                                                    <img src="{{ asset('img/design/PROYECTOS_06.png') }}" alt="">
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                                    <img src="{{ asset('img/design/PROYECTOS_06.png') }}" alt="" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="row py-3">
@@ -35,8 +35,8 @@
                                                 </div>
                                             </div>
                                             <div class="row mt-5">
-                                                <div class="col">
-                                                    <img src="{{ asset('img/design/PROYECTOS_09.png') }}" alt="">
+                                                <div class="col-sm-12 col-md-4 col-lg-6 col-xl-12">
+                                                    <img src="{{ asset('img/design/PROYECTOS_09.png') }}" alt="" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="row py-3">
@@ -55,30 +55,19 @@
                                 <div class="col-md-8 px-0">
                                     <div id="carrusel" class="">
                                         <div class="d-flex flex-row justify-content-start align-items-end" style="background-image: url('{{ asset('img/design/PROYECTOS_03.png') }}'); background-size: 100% auto; background-repeat: no-repeat;">   
+                                            <div class="auxsmall"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                            <div class="auxmed"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                            <div class="auxsuper"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                                             <div class="d-flex flex-column sub-img align-items-center justify-content-center border border-dark">
                                                 <img src="{{ asset('img/design/PROYECTOS_13.png') }}" class="img-fluid" alt="" style="background-size: 50% auto; background-repeat: no-repeat;">
                                             </div>
-                                            <div class="espacios-responsive">
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                            </div>
-                                            <div class="espacios">
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                            </div>  
                                         </div>
-                                        <div class="d-flex justify-content-start align-items-end" style="background-image: url('{{ asset('img/design/PROYECTOS_03.png') }}'); background-size: 100% auto; background-repeat: no-repeat;">   
-                                            <div class="d-flex sub-img align-items-center justify-content-center border border-dark">
-                                                <img src="{{ asset('img/design/PROYECTOS_13.png') }}" class="img-fluid" alt="" style="background-size: 100% auto; background-repeat: no-repeat;">
+                                        <div class="d-flex flex-row justify-content-start align-items-end" style="background-image: url('{{ asset('img/design/PROYECTOS_03.png') }}'); background-size: 100% auto; background-repeat: no-repeat;">   
+                                            <div class="auxsmall"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                            <div class="auxsuper"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                            <div class="d-flex flex-column sub-img align-items-center justify-content-center border border-dark">
+                                                <img src="{{ asset('img/design/PROYECTOS_13.png') }}" class="img-fluid" alt="" style="background-size: 50% auto; background-repeat: no-repeat;">
                                             </div>
-                                            <div class="espacios-responsive">
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                            </div>
-                                            <div class="espacios">
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                            </div>  
                                         </div>
                                     </div> 
                                 </div>
@@ -116,28 +105,31 @@
                         <img src="{{ asset('img/design/TKSHome_76.png') }}" class="img-fluid" alt="">
                     </div>
                 </div>
-                <form action="" method="POST">
+                <form action="{{ url('/') }}" method="POST">
                     <div class="row">
-                        <div class="col-md-6 mx-auto">
+                        <div class="col-md-9 mx-auto">
                             <div class="row">
-                                <div class="col-md-4">
-                                    <input type="text" class="form-control formu2 border border-dark py-2" style="color:black; background-color: #F7F0EB; font-size: 24px;" placeholder="Nombre">
+                                <div class="col-sm-12 col-md-4 py-1">
+                                    <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Nombre">
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-sm-12 col-md-4 py-1">
                                     <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Correo">
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-sm-12 col-md-4 py-1">
                                     <input type="text" class="form-control formu2 border border-dark py-2" style="background-color: #F7F0EB; font-size: 24px;" placeholder="Whatsapp">
                                 </div>
                             </div>
-                            <div class="row py-3">
+                            <div class="row py-1">
                                 <div class="col">
                                     <textarea class="form-control border border-dark" name="" id="" cols="30" rows="10" style="height: 100px;  font-size: 24px;"></textarea>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-3 mx-auto text-center">
-                                    <input type="submit" class="form-control border border-dark py-2" value="ENVIAR" style="font-size: 30px;">
+                            <div class="row py-2">
+                                <div class="col-md-4 col-lg-3 mx-auto text-center">
+                                    <!-- <input type="submit" class="form-control btn border border-dark py-2" value="ENVIAR" style="font-size: 30px;"> -->
+                                    <button type="submit" class="form-control btn border border-dark py-2" style="font-size: 20px;">
+                                        SABER MAS <i class="carga fa fa-spinner fa-spin"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>

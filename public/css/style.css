@@ -160,6 +160,29 @@
         display: block;
     }
 
+    .auxm {
+        display: block;
+    }
+
+    .auxl {
+        display: none;
+    }
+
+    .auxsmall {
+        display: none;
+    }
+
+    .auxmg {
+        display: block;
+    }
+
+    .auxsuper {
+        display: none;
+    }
+
+    .auxmed {
+        display: block;
+    }
 } 
 
 @media (max-width: 500px) {
@@ -232,6 +255,41 @@
         display: block;
     }
 
+    .auxm {
+        display: none;
+    }
+
+    .auxl {
+        display: none;
+    }
+
+    .auxsmall {
+        display: block;
+    }
+
+    .auxmg {
+        display: none;
+    }
+
+    .auxsuper {
+        display: none;
+    }
+
+    .auxmed {
+        display: none;
+    }
 }
 
+@media (min-width: 1000px) {
+    .auxl {
+        display: block;
+    }
 
+    .auxsuper {
+        display: block;
+    }
+
+    .auxmed {
+        display: none;
+    }
+}
