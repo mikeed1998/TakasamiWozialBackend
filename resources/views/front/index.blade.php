@@ -33,7 +33,7 @@
                             </div>
                             <div>
                                 <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: auto; background-image: url({{ asset('img/design/TKSHome_07.png') }}); background-size: cover;">
-                                    <div class="auxm"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                    <div class="auxm"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                                     <div class="d-flex mb-5 align-items-center justify-content-center">
                                         <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
                                     </div>
