@@ -63,7 +63,7 @@
                         <div class="col-md-12 col-lg-6 py-5 text-center mx-auto">
                             <div class="card border-0" style="background-color: #F7F0EB;">
                                 <div class="text-center">
-                                    <img src="{{ asset('img/photos/seccions/'.$elementos[2]->imagen)}}" class="img-fluid rounded-circle w-50" alt="">
+                                    <img src="{{ asset('img/design/PROYECTOS_03.png') }}" class="img-fluid rounded-circle w-50" alt="">
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
@@ -148,7 +148,7 @@
             </div>
             <div class="row py-3">
                 <div class="col-md-9 text-start mx-auto">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veritatis architecto doloribus recusandae? Enim deserunt voluptatibus facilis aliquid unde voluptate.
+                    <p>{!! $elementos[2]->texto !!}</p>
                 </div>
             </div>
             <div class="row py-3">
@@ -158,7 +158,7 @@
             </div>
         </div>
         <div class="col-md-8 px-0">
-            <img src="{{ asset('img/design/Nosotros_11.png') }}" class="img-fluid w-100" alt="" style="background-size: cover;">
+            <img src="{{ asset('img/photos/seccions/'. $elementos[3]->imagen) }}" class="img-fluid w-100" alt="" style="background-size: cover;">
         </div>
     </div>
 </div>

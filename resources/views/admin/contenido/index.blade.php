@@ -55,6 +55,23 @@
 										</div>
 									</td>
 								</tr>
+								<tr>
+									<td class="align-middle">
+										<a href="{{route('cont.alianza')}}">
+											novo
+										</a>
+									</td>
+									<td class="align-middle">
+										<div class="dropdown text-right">
+											<a href="" class="btn btn-link btn-sm dropdown py-0" id="dropdownMenuButton"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<i class="fas fa-ellipsis-v"></i>
+											</a>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+												<a class="dropdown-item" href="{{route('cont.alianza')}}"><i class="far fa-fw fa-edit"></i> Editar</a>
+											</div>
+										</div>
+									</td>
+								</tr>
 						</tbody>
 					</table>
 				</div>

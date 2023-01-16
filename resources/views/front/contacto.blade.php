@@ -25,7 +25,7 @@
                                 <img src="{{ asset('img/design/contact.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="col-md-12 col-lg-9 mx-auto text-center" style="text-align: justify;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident libero eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio hic ut earum culpa saepe omnis. Dolorum a quisquam illo alias doloremque magni enim veniam, reprehenderit necessitatibus quia atque ad vel.
+                                <p>{!! $elementos[0]->texto !!}</p>
                             </div>
                         </div>
                         <form action="" method="POST">
@@ -68,11 +68,11 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                Avenida lapizlazuli 2074 int 3 <br>
-                                Residencial Victoria, Zapopan jalisco. <br>
-                                Tel. 3338096501 <br><br>
-                            <a href="#" class="text-dark" style="text-decoration: none;">
+                            <div class="col-12">
+                                <p>{!! $elementos[1]->texto !!}</p>
+                            </div>
+                            <div class="col-12">
+                                <a href="#" class="text-dark" style="text-decoration: none;">
                                 <i class="fa-brands fa-whatsapp fa-lg px-2"></i>
                             </a>
                             <a href="#" class="text-dark" style="text-decoration: none;">
@@ -84,6 +84,7 @@
                             <a href="#" class="text-dark" style="text-decoration: none;">
                                 <i class="fa-solid fa-location-dot fa-lg px-2"></i>
                             </a>
+                            </div>
                         </div>
                     </div>
                 </div>

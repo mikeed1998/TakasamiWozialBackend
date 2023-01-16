@@ -32,12 +32,15 @@ class FrontController extends Controller
 			
 			$elementos = Elemento::where('seccion',1)->get();
 			$productos = Producto::where('inicio',1)->where('activo',1)->get();
-			$carrusel = contenido::where('parent',1)->get();
-
+			$slider = contenido::where('parent',1)->get();
+			$carrusel = contenido::where('parent',2)->get();
+			
+			
+			
 			foreach($productos as $item){
 				$item->foto = ProductosPhoto::where('producto',$item->id)->get()->first()->image;
 			}
-			return view('front.index',compact('elementos','productos','carrusel'));
+			return view('front.index',compact('elementos','productos','carrusel', 'slider'));
 	}
 	
 		public function aboutus(){

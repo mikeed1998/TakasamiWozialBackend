@@ -35,6 +35,13 @@ class ContenidoController extends Controller
     return view('admin.contenido.alianza', compact('print'));
     }
 
+    public function novo() {
+
+        $print = Contenido::where('parent', 3)->get();
+    
+        return view('admin.contenido.novo', compact('print'));
+    }
+
   public function store(Request $request, $id) {
 
     if(!empty($request->file('foto'))){

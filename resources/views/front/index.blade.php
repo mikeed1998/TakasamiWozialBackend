@@ -23,22 +23,26 @@
                     <div class="col position-absolute px-2">
                         <div class="aux3"><br><br></div>
                         <div id="carrusel" class="">
-                            <div>
-                                <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: auto; background-image: url({{ asset('img/design/TKSHome_07.png') }}); background-size: cover;">
-                                    <div class="auxm"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-                                    <div class="d-flex mb-5 align-items-center justify-content-center">
-                                        <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
-                                    </div>  
+                            <div class="" id="slider_pri">
+                                @foreach($slider as $ite)
+                                <div>
+                                    <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: auto; background-image: url({{asset("/img/photos/productos/".$ite->image)}}); background-size: cover;">
+                                        <div class="auxm"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                                        <div class="d-flex mb-5 align-items-center justify-content-center">
+                                            <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
+                                        </div>  
+                                    </div>
                                 </div>
+                                @endforeach
                             </div>
-                            <div>
+                            {{-- <div>
                                 <div class="col-md-6 col-xs-12 py-5 d-flex justify-content-center align-items-end" style="width: auto; height: auto; background-image: url({{ asset('img/design/TKSHome_07.png') }}); background-size: cover;">
                                     <div class="auxm"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
                                     <div class="d-flex mb-5 align-items-center justify-content-center">
                                         <a href="#" class="btn btn-lg btn-outline bg-white py-3 px-3 shadow-lg"><h4 class="p-0 m-0">SABER MÁS</h4></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="aux3"><br><br><br><br><br><br><br><br><br><br></div>
@@ -57,8 +61,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-9 mx-auto" style="text-align: justify;">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quidem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsam nobis repellendus numquam, quae quidem dicta atque neque eos cumque officiis eveniet aut consectetur voluptate non? Repellat id nostrum itaque!</p>
-                                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ea officiis id magni adipisci culpa maiores, temporibus, veniam facere sapiente exercitationem. Saepe animi temporibus repudiandae, suscipit pariatur error labore sunt.</p>
+                                    <p>{!! $elementos[1]->texto !!}</p>
                                 </div>
                             </div>
                             <div class="row py-3">
@@ -79,7 +82,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6" style="background-color: #F7F0EB">
                             <div class="row">
                                 <div class="col text-center">
-                                    <img src="{{ asset('img/design/TKSHome_11.png') }}" class="img-fluid" alt="">
+                                    <img src="{{ asset('img/photos/seccions/'.$elementos[2]->imagen)}}" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
@@ -98,12 +101,30 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-9 col-lg-6 mx-auto text-center">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aliquid accusamus mollitia dolorum aperiam eveniet, a ratione magni asperiores est blanditiis quasi excepturi sed neque aspernatur, dolores molestias quaerat dolore rerum? Ipsam ipsum quisquam itaque natus pariatur fugiat suscipit hic.
+                                    <p>{!! $elementos[3]->texto !!}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-5 px-5">
+                    
+                    
+                    <div class="container-fluid mt-5">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-9 col-lg-9 mx-auto">
+                                <div class="" id="carrusel_logos">
+                                @foreach($carrusel as $item)
+                                    <div class="d-flex justify-content-center">
+                                        <img src="{{asset("/img/photos/productos/".$item->image)}}" style="max-width: 165px">
+                                    </div>
+                                @endforeach
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                    {{-- <div class="row mt-5 px-5">
                         <div class="col-sm-12 col-md-9 col-lg-12 mx-auto">
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-2 py-3 text-center mx-auto">
@@ -123,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="row mt-5 py-5" style="background-color: #F7F0EB">
                         <div class="col-sm-12 col-md-12 col-lg-12 text-center mt-5">
                             <div class="row">
@@ -133,7 +154,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-9 col-lg-6 mx-auto text-center">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum at quod non? Tempora, molestias pariatur? Culpa, temporibus! Corrupti inventore, aliquid reprehenderit, molestiae doloribus delectus dolore aspernatur sit aliquam magni nostrum.
+                                    <p>{!! $elementos[5]->texto !!}</p>
                                 </div>
                             </div>
                         </div>
@@ -333,10 +354,10 @@
 
 <script>
   $(document).ready(function() {
-    $('#carrusel2').slick({
+    $('#slider_pri').slick({
       dots: true,
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
       autoplay: true,
@@ -345,15 +366,15 @@
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 1,
+            slidesToScroll: 1,
           }
         },
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         },
         {
@@ -369,7 +390,7 @@
     $('#carrusel_logos').slick({
       dots: true,
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 1,
       arrows: false,
       autoplay: true,
