@@ -162,8 +162,6 @@
                     <div class="row">
                         <div class="col-md-12 mx-auto">
                             <div class="row">
-                                <div id="carruselEquipo">
-                                    <div>
                                         <div class="col px-0">
                                             <div class="card">
                                                 <div class="image col-md-6 col-xs-12 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-image: url({{ asset('img/design/TKSHome_47.png') }}); background-size: cover;">
@@ -190,8 +188,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div>
                                         <div class="col px-0">
                                             <div class="card">
                                                 <div class="col-md-6 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-size: cover; background-image: url({{ asset('img/design/TKSHome_49.png') }});">
@@ -218,8 +214,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div>
                                         <div class="col px-0">
                                             <div class="card">
                                                 <div class="col-md-6 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-size: cover; background-image: url({{ asset('img/design/TKSHome_51.png') }});">
@@ -247,38 +241,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div>
-                                        <div class="col px-0">
-                                            <div class="card">
-                                                <div class="col-md-6 p-0 d-flex justify-content-end align-items-end" style="width: 600px; height: 600px; background-size: cover; background-image: url({{ asset('img/design/TKSHome_49.png') }});">
-                                                    <div class="d-flex align-items-center justify-content-center" style="background: #F7F0EB; width: 120px; height: 120px; background-size: cover;">
-                                                        <img class="img-fluid" src="{{ asset('img/design/TKSHome_59.png') }}" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="row">
-                                                        <div class="col text-center">
-                                                            <h3>EQUIPO</h3>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-6 mx-auto text-center">
-                                                            <hr style="border: 3px solid black;">
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col text-center">
-                                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos porro earum optio vero molestias rem, soluta harum deserunt molestiae magni!
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
                     <div class="row mt-5 py-5">
                         <div class="col-sm-12 col-md-12 py-5" style="background-color: #F7F0EB">
                             <div class="row py-5">

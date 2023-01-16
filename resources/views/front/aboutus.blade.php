@@ -63,7 +63,7 @@
                         <div class="col-md-12 col-lg-6 py-5 text-center mx-auto">
                             <div class="card border-0" style="background-color: #F7F0EB;">
                                 <div class="text-center">
-                                    <img src="{{ asset('img/design/PROYECTOS_03.png') }}" class="img-fluid rounded-circle w-50" alt="">
+                                    <img src="{{ asset('img/photos/seccions/'.$elementos[5]->imagen) }}" class="img-fluid rounded-circle w-50" alt="">
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col" style="text-align: justify;">
-                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque doloremque exercitationem minus itaque similique natus iure voluptate? Ab iste beatae commodi optio inventore, consequatur perferendis temporibus maxime, veritatis aperiam autem.</p>
+                                            <p>{!! $elementos[4]->texto !!}</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -100,9 +100,9 @@
                         <div class="col-md-12 col-lg-6 py-5 text-center mx-auto">
                             <div class="card border-0" style="background-color: #F7F0EB;">
                                 <div class="text-center">
-                                    <img src="{{ asset('img/design/PROYECTOS_03.png') }}" class="img-fluid rounded-circle w-50" alt="">
+                                    <img src="{{ asset('img/photos/seccions/'.$elementos[7]->imagen) }}" class="img-fluid rounded-circle w-50" alt="">
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body"> 
                                     <div class="row">
                                         <div class="col">
                                             <h3>Rosario Mendoza</h3>
@@ -115,7 +115,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col" style="text-align: justify;">
-                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque doloremque exercitationem minus itaque similique natus iure voluptate? Ab iste beatae commodi optio inventore, consequatur perferendis temporibus maxime, veritatis aperiam autem.</p>
+                                            <p>{!! $elementos[6]->texto !!}</p>
                                         </div>
                                     </div>
                                     <div class="row">
