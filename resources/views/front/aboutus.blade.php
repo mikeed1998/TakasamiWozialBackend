@@ -16,7 +16,9 @@
     <div class="row" style="background-color: #F7F0EB;">
         <div class="col py-5">
             <div class="row">
-                <div class="col-md-4"></div>
+                <div class="col-md-4 mt-5">
+                    <img src="{{ asset('img/photos/seccions/'.$elementos[8]->imagen) }}" alt="" class="img-fluid">
+                </div>
                 <div class="col-md-7 px-5">
                     <div class="row mt-5 py-5">
                         <div class="col">

@@ -10,7 +10,7 @@
     
 @endsection
 @section('styleExtras')
-
+   
 @endsection
 
 @section('content')
@@ -72,18 +72,23 @@
                                 <p>{!! $elementos[1]->texto !!}</p>
                             </div>
                             <div class="col-12">
-                                <a href="#" class="text-dark" style="text-decoration: none;">
+                                <a href="https://wa.me/{!! $data->whatsapp !!}" class="text-dark" style="text-decoration: none;">
                                 <i class="fa-brands fa-whatsapp fa-lg px-2"></i>
                             </a>
-                            <a href="#" class="text-dark" style="text-decoration: none;">
+                            <a href="{!! $data->facebook !!}" class="text-dark" style="text-decoration: none;">
                                 <i class="fa-brands fa-facebook-f fa-lg px-2"></i>
                             </a>
-                            <a href="#" class="text-dark" style="text-decoration: none;">
+                            <a href="{!! $data->instagram !!}" class="text-dark" style="text-decoration: none;">
                                 <i class="fa-brands fa-instagram fa-lg px-2"></i>
                             </a>
-                            <a href="#" class="text-dark" style="text-decoration: none;">
+                            <a href="#" id="mapa" class="text-dark" style="text-decoration: none;">
                                 <i class="fa-solid fa-location-dot fa-lg px-2"></i>
                             </a>
+                           
+                            <div id="smapa">
+                                {!! $data->mapa; !!}
+                            </div>
+                            
                             </div>
                         </div>
                     </div>
@@ -92,6 +97,15 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+        $("#mapa").click(function(){
+            $("#smapa").toggle();
+        });
+    });
+</script>
+
 
 @endsection
 

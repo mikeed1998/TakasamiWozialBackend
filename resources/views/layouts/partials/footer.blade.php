@@ -64,12 +64,15 @@
                                 </div>
                                 <div class="col-md-6 text-end mt-5">
                                     <div class="row mt-5">
-                                        <div class="col mt-5">
-                                            Avenida lapizlazuli 2074 int3 <br>
-                                            Residencial Victoria, Guadalajara <br>
-                                            jalisco, México <br>
-                                            contacto@rtc.com <br>
-                                            3338096501. <br>
+                                        <div class="col-6 mt-5">
+                                           
+                                        </div>
+                                        <div class="col-6">
+                                            {!! $data->direccion ?? '' !!}
+                                            <br>
+                                            {!! $data->destinatario ?? '' !!}
+                                            <br>
+                                            {!! $data->telefono ?? '' !!}
                                         </div>
                                     </div>
                                 </div>
@@ -82,28 +85,28 @@
                                 <div class="col-md-6 mt-3">
                                     <div class="row">
                                         <div class="col">
-                                            aviso de privacidad
+                                            <a href="#" class="text-dark" style="text-decoration: none;">aviso de privacidad</a>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            preguntas frecuentes
+                                            <a href="#" class="text-dark" style="text-decoration: none;">preguntas frecuentes</a>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            terminos y condiciones
+                                            <a href="#" class="text-dark" style="text-decoration: none;">terminos y condiciones</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mt-5 py-0 text-end">
-                                    <a href="#" class="text-dark" style="text-decoration: none;">
+                                    <a href="https://wa.me/{!! $data->whatsapp ?? '' !!}" class="text-dark" style="text-decoration: none;">
                                         <i class="fa-brands fa-whatsapp fa-2xl px-2"></i>
                                     </a>
-                                    <a href="#" class="text-dark" style="text-decoration: none;">
+                                    <a href="{!! $data->facebook ?? '' !!}" class="text-dark" style="text-decoration: none;">
                                         <i class="fa-brands fa-facebook-f fa-2xl px-2"></i>
                                     </a>
-                                    <a href="#" class="text-dark" style="text-decoration: none;">
+                                    <a href="{!! $data->instagram ?? '' !!}" class="text-dark" style="text-decoration: none;">
                                         <i class="fa-brands fa-instagram fa-2xl px-2"></i>
                                     </a>
                                 </div>

@@ -7,17 +7,17 @@
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-start bg-white">
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-2 col-xl-2 text-start">
-                                    <h5 style="display: inline;">TEL. 3338096501 </h5>
+                                    <h5 style="display: inline;"> {!! $data->telefono ?? '' !!} </h5>
                                 </div>
                                 <div class="col-sm-12 col-md-4 col-lg-2 col-xl-2 text-start">
                                     <h5 style="display: inline;">
-                                        <a href="#" class="text-dark" style="text-decoration: none;">
+                                        <a href="https://wa.me/{!! $data->whatsapp ?? '' !!}" class="text-dark" style="text-decoration: none;">
                                             <i class="fa-brands fa-whatsapp px-2"></i>
                                         </a>
-                                        <a href="#" class="text-dark" style="text-decoration: none;">
+                                        <a href="{!! $data->facebook ?? '' !!}" class="text-dark" style="text-decoration: none;">
                                             <i class="fa-brands fa-facebook-f px-2"></i>
                                         </a>
-                                        <a href="#" class="text-dark" style="text-decoration: none;">
+                                        <a href="{!! $data->instagram ?? '' !!}" class="text-dark" style="text-decoration: none;">
                                             <i class="fa-brands fa-instagram px-2"></i>
                                         </a> 
                                     </h5>

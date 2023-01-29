@@ -34,29 +34,45 @@ class FrontController extends Controller
 			$productos = Producto::where('inicio',1)->where('activo',1)->get();
 			$slider = contenido::where('parent',1)->get();
 			$carrusel = contenido::where('parent',2)->get();
-			
-			
+			$data = Configuracion::first();
 			
 			foreach($productos as $item){
 				$item->foto = ProductosPhoto::where('producto',$item->id)->get()->first()->image;
 			}
-			return view('front.index',compact('elementos','productos','carrusel', 'slider'));
+			return view('front.index',compact('elementos','productos','carrusel', 'slider', 'data'));
 	}
 	
 		public function aboutus(){
 			$elementos = Elemento::where('seccion',5)->get();
 			$carrusel = contenido::where('parent',2)->get();
+			$data = Configuracion::first();
 
-			return view('front.aboutus',compact('elementos','carrusel'));
+			return view('front.aboutus',compact('elementos','carrusel', 'data'));
 		// return view('front.aboutus');
+	}
+
+	public function header(){
+		$data = Configuracion::first();
+
+		return view('layouts.partials.header', compact('data'));
+	}
+
+	public function footer() {
+		$data = Configuracion::first();
+
+		return view('layouts.partials.footer', compact('data'));
 	}
 	
 	public function social(){
-		return view('front.social');		
+		$data = Configuracion::first();
+
+		return view('front.social', compact('data'));		
 	}
 
 	public function proyectos() {
-		return view('front.proyectos');
+		$data = Configuracion::first();
+
+		return view('front.proyectos', compact('data'));
 	}
 
 	public function tests() {
@@ -70,7 +86,10 @@ class FrontController extends Controller
 	}
 
 	public function soluciones() {
-		return view('front.soluciones');
+		$elementos = Elemento::where('seccion', 2)->get();
+		$data = Configuracion::first();
+
+		return view('front.soluciones', compact('elementos', 'data'));
 	}
 
 	/*
