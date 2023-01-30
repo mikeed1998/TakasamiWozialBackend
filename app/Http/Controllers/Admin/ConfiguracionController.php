@@ -16,7 +16,7 @@ class ConfiguracionController extends Controller
     public function index()
     {
 			$cards = array(
-				array('icon' => 'fas fa-cogs', 'route' => 'config.general', 'text' => 'Config. general'),
+				array('icon' => 'fas fa-cogs', 'route' => 'config.general', 'text' => 'Config. general'),  
 				array('icon' => 'fas fa-paper-plane', 'route' => 'config.contact', 'text' => 'Contacto'),
 				// array('icon' => 'fas fa-palette', 'route' => 'config.color.index', 'text' => 'Colores'),
                 // array('icon' => 'fas fa-users', 'route' => 'admin.show', 'text' => 'Usuarios'),

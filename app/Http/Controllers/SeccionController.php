@@ -17,7 +17,7 @@ class SeccionController extends Controller
      */
     public function index() {
 			$seccion = Seccion::all();
-			foreach ($seccion as $sec) {
+			foreach ($seccion as $sec) { 
 				$sec->elements = $sec->elementos()->count();
 			}
 

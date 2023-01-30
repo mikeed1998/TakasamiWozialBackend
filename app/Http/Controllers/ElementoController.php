@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 
 class ElementoController extends Controller
 {
-    /**
+    /** 
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response

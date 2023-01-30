@@ -11,7 +11,7 @@
 @section('content')
 	<div class="row mb-4 px-2">
 		<a href="{{ route('config.index') }}" class="col col-md-2 btn btn-sm grey darken-2 text-white mr-auto"><i class="fa fa-reply"></i> Regresar</a>
-	</div>
+	</div> 
 	<div class="row justify-content-center">
 		@foreach ($seccion as $card)
 			@if (!empty($card->elements))

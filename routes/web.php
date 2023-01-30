@@ -93,7 +93,7 @@ Route::prefix('admin')->group(function(){
 		});
 
 		Route::prefix('secciones')->name('seccion.')->group(function(){
-			Route::get('/','SeccionController@index')->name('index');
+			Route::get('/','SeccionController@index')->name('index'); 
 			Route::get('/{slug}','SeccionController@show')->name('show');
 			Route::put('/{id}','ElementoController@update')->name('update');
 			Route::put('/portada/{id}', 'SeccionController@update')->name('updatePortada');
@@ -179,6 +179,7 @@ Route::prefix('admin')->group(function(){
 		Route::get('/','ContenidoController@index')->name('index');
 		Route::get('apoyo', 'ContenidoController@apoyo')->name('apoyo');
 		Route::get('alianza', 'ContenidoController@alianza')->name('alianza');
+		Route::get('proyectos', 'ContenidoController@novo')->name('proyectos');
 		Route::post('newpic/{id}', 'ContenidoController@store')->name('store');
 		Route::delete('delete', 'ContenidoController@destroy')->name('delete');
 	});
