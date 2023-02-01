@@ -7,7 +7,7 @@
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-start bg-white">
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 col-lg-2 col-xl-2 text-start">
-                                    <h5 style="display: inline;"> {!! $data->telefono ?? '' !!} </h5>
+                                    <h5 style="display: inline;"> TEL. {!! $data->telefono ?? '' !!} </h5>
                                 </div>
                                 <div class="col-sm-12 col-md-4 col-lg-2 col-xl-2 text-start">
                                     <h5 style="display: inline;">

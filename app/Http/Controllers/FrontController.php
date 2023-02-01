@@ -14,6 +14,8 @@ use App\Configuracion;
 use App\Producto;
 use App\categoria_detalle;
 use App\contenido;
+use App\CategoriasProyectos;
+use App\CategoriasProyectosDetalles;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -71,8 +73,10 @@ class FrontController extends Controller
 
 	public function proyectos() {
 		$data = Configuracion::first();
+		$proyectos = CategoriasProyectos::all();
+		$proyectos_d = CategoriasProyectosDetalles::all();
 
-		return view('front.proyectos', compact('data'));
+		return view('front.proyectos', compact('data', 'proyectos', 'proyectos_d'));
 	}
 
 	public function tests() {
