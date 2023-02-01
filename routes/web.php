@@ -179,9 +179,18 @@ Route::prefix('admin')->group(function(){
 		Route::get('/','ContenidoController@index')->name('index');
 		Route::get('apoyo', 'ContenidoController@apoyo')->name('apoyo');
 		Route::get('alianza', 'ContenidoController@alianza')->name('alianza');
-		Route::get('proyectos', 'ContenidoController@novo')->name('proyectos');
 		Route::post('newpic/{id}', 'ContenidoController@store')->name('store');
 		Route::delete('delete', 'ContenidoController@destroy')->name('delete');
+		
+		Route::name('proyectos.')->group(function(){
+			Route::get('index', 'CategoriasProyectosDetallesController@index')->name('index');
+			Route::get('create', 'CategoriasProyectosDetallesController@create')->name('create');
+			Route::post('storep/', 'CategoriasProyectosDetallesController@storep')->name('storep');
+			Route::get('show/{product}', 'CategoriasProyectosDetallesController@show')->name('show');
+			Route::get('edit/{product}', 'CategoriasProyectosDetallesController@edit')->name('edit');
+			Route::put('edit/{product}', 'CategoriasProyectosDetallesController@update')->name('update');
+			Route::delete('/{product}', 'CategoriasProyectosDetallesController@destroy')->name('destroy');
+		});
 	});
 
 	Route::prefix('categorias')->name('categ.')->group(function(){

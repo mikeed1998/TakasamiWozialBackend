@@ -57,7 +57,7 @@
 								</tr>
 								<tr>
 									<td class="align-middle">
-										<a href="{{route('cont.proyectos')}}">
+										<a href="{{route('cont.proyectos.index')}}">
 											Proyectos
 										</a>
 									</td>
@@ -67,7 +67,7 @@
 												<i class="fas fa-ellipsis-v"></i>
 											</a>
 											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												<a class="dropdown-item" href="{{route('cont.proyectos')}}"><i class="far fa-fw fa-edit"></i> Editar</a>
+												<a class="dropdown-item" href="{{route('cont.proyectos.index')}}"><i class="far fa-fw fa-edit"></i> Editar</a>
 											</div>
 										</div>
 									</td>

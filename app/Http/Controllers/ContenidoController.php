@@ -42,6 +42,10 @@ class ContenidoController extends Controller
         return view('admin.contenido.novo', compact('print'));
     }
 
+    public function proyectos() {
+        return view('admin.contenido.proyectos.index');
+    }
+
   public function store(Request $request, $id) {
 
     if(!empty($request->file('foto'))){
